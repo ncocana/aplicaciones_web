@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Caesar;
+    src: url(font/CAESAR.TTF);
+}
+
+@font-face {
+    font-family: Elementary Gothic Bookhand;
+    src: url(font/Elementary_Gothic_Bookhand.ttf);
+}
+
+html {
+    background-image: url("img/background.jpg");
+    background-color: #5F9584; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fija la imagen */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+img {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    color: #5D067C;
+}
+
+body {
+    background: #fff;
+    background-position: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+    max-width: 1050px;
+    padding: 2em 2em 4em;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 2em 2em 2em;
+}
+
+h1 {
+    color: #16026C;
+    font-family: "Elementary Gothic Bookhand";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.3;
+    padding: 1em 0em 1em;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #0C60A5;
+    font-family: "Caesar";
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 0em 0em 1em;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: cadetblue;
+    height: 80px;
+    width: max-content;
+    position: static;
+    border-radius: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+   font-size: 18px;
+   margin: 0 10px;
+   line-height: 80px;
+   text-transform: uppercase;
+   width: max-content; 
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgb(103, 73, 151);
+}
+
+.nav-menu-link:hover {
+    background-color: slateblue;
+    transition: 0.5s;
+}

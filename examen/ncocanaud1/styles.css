@@ -1,0 +1,143 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/foto9.jpeg");
+    background-color: #1D202B; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fija la imagen */
+    background-size: cover; /* Resize the background image to cover the entire container */
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 20px;
+}
+
+.contenedor-tech {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
+.contenedor-banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+#header {
+    background-color: rgb(0, 4, 37);
+    height: 80px;
+    width: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+main {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 2em 2em 4em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+   font-size: 18px;
+   margin: 0 10px;
+   line-height: 80px;
+   text-transform: uppercase;
+   width: max-content; 
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu-link:hover {
+    background-color: rgb(73, 49, 228);
+    transition: 0.5s;
+}
+
+.c1 {
+	color: brown;
+}
+
+.c2 {
+	color: rgb(0, 97, 5);
+}
+
+.c3 {
+	color: rgb(59, 0, 153);
+}
+
+.c4 {
+	color: rgb(4, 62, 100);
+}
